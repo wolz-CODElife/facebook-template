@@ -1,0 +1,118 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    background: linear-gradient(#fff, #3357c42d);
+    color: #082869;
+}
+/* Constants style begins */
+a{
+    color: #3357c4;
+    text-decoration: none;
+}
+.row{
+    display: block;
+}
+.col{
+    display: inline;
+    float: left;
+}
+/* Constant style ends  */
+
+/* Header style begins */
+.header{
+    background: #2951ca;
+    padding: 5px 50px;
+    padding-bottom: 0px;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+}
+.header .col{
+    width: 40%;
+}
+.col h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.col ul{
+    list-style: none;
+    font-size: 0.8rem;
+}
+.col .inline{
+    display: inline;
+    float: left;
+    margin: 0px 10px;
+}
+.col .inline *{
+    display: block;
+}
+.login{
+    color: #fff;
+    background: #2951cac1;
+    cursor: pointer;
+    border: none;
+    box-shadow: 2px 1px 0px #000;
+}
+/* Header style ends */
+
+/* Right section style begins */
+.right{
+    margin: 100px;
+    margin-top: 80px;
+    float: right;
+    width: 40%;
+}
+.right input{
+    height: 30px;
+    width: 90%;
+}
+.right select{
+    height: 30px;
+    width: 100px;
+}
+.right tr td:first-child{
+    min-width: 150px;
+    text-align: right;
+}
+.right .birthday input{
+    max-width: 70px;
+}
+.right .signup{
+    height: 35px;
+    width: 120px;
+    border: 1px black solid;
+    background: green;
+    color: white;
+}
+/* Right section style ends */
+
+/* Left section style begins */
+.left{
+    margin: 100px;
+    width: 40%;
+}
+.left img{
+    width: 90%;
+    margin: auto;
+}
+/* Left section style ends */
+
+/* Footer style begins */
+.footer{
+    float:left;
+    clear: both;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: #ffffff;
+}
+.footer .content{
+    width: 90%;
+    margin: auto;
+}
+.footer .content .lastline{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+/* Footer style ends */
